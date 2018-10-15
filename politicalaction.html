@@ -1,0 +1,263 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="CodePixar">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>LA E.Y.E. | Envision Your Environment</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/jquery.DonutWidget.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+		/*body {*/
+		/*	font-family: Arial;*/
+		/*}*/
+		
+		* {
+			box-sizing: border-box;
+		}
+		
+		form.searchBox input[type=text] {
+			padding: 10px;
+			font-size: 17px;
+			border: 1px solid grey;
+			float: left;
+			width: 80%;
+			background: #f1f1f1;
+			
+		}
+		
+		form.searchBox button {
+			float: left;
+			width: 15%;
+			padding: 10px;
+			background: #2196F3;
+			color: white;
+			font-size: 17px;
+			border: 1px solid grey;
+			border-left: none;
+			cursor: pointer;
+		}
+
+		form.searchBox button:hover{
+			background: #0b7dda;
+		}
+		
+	form.searchBox::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	</style>
+			
+		</head>
+
+		
+		<body>
+
+			<!-- Start Header Area -->
+			<header class="default-header">
+				<nav class="navbar navbar-expand-lg  navbar-light">
+					<div class="container">
+						  <a class="navbar-brand" href="index.html">
+						  	<img src="img/la.png" style="width:100px;height:100;" alt="">
+						  </a>
+						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon"></span>
+						  </button>
+
+						  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+						    <ul class="navbar-nav">
+								<li><a href="#home">Home</a></li>
+								<!-- Dropdown -->
+							    <li class="dropdown">
+							      <a class="dropdown-toggle" href="#service" id="navbardrop" data-toggle="dropdown">
+							        Issues
+							      </a>
+							      <div class="dropdown-menu">
+							        <a class="dropdown-item" href="water.html">Water Conservation</a>
+							        <a class="dropdown-item" href="recycle.html">Recycling</a>
+							        <a class="dropdown-item" href="homeless.html">Homelessness</a>
+							      </div>
+							    </li>
+								<li><a href="#project">VR</a></li>
+								<li><a href="#blog">Lenses</a></li>
+								<li class="dropdown">
+							      <a class="dropdown-toggle" href="#service" id="navbardrop" data-toggle="dropdown">
+							        Get Involved
+							      </a>
+							      <div class="dropdown-menu">
+							        <a class="dropdown-item" href="community.html">Community</a>
+							        <a class="dropdown-item" href="politicalaction.html">Political Action</a>
+							      </div>
+							    </li>
+								<li><a href="#team">About Us</a></li>
+							   									
+						    </ul>
+						  </div>						
+					</div>
+				</nav>
+			</header>
+			<!-- End Header Area -->
+
+			<!-- start banner Area -->
+			<section class="banner-area relative" id="home" data-parallax="scroll" data-image-src="img/elements/poli-img.jpg">
+				<div class="overlay-bg overlay"></div>
+				<div class="container">
+					<div class="row fullscreen  d-flex align-items-center justify-content-end">
+						<div class="banner-content col-lg-6 col-md-12">
+							<h1>
+						    <br>Get Involved:
+								<span>Take Political</span> <br>
+							<span>Action</span>							
+							</h1>
+						
+						</div>												
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->	
+
+			<!-- Start Sample Area -->
+			<section class="sample-text-area">
+				<div class="container">
+					<h3 class="text-heading">Take Political Action</h3>
+					<p class="sample-text">
+					
+					<p> The greatest action we can take to improve our community of Los Angeles is to implement change through political action. It is important that 
+					we bring awareness of issues such as homelessness, lack of water, and environmental concerns to our state. The LA E.Y.E. urges you to reach out to your
+					district  representative and communicate your concerns for our city. For residents in Los Angeles, search your city to find your district number and use this information
+					to get in touch with your local representative today. </p> 
+				
+					</p>
+					
+						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+						<input type="text" placeholder="Search..." name="searchInput">
+						<button type="submit" onclick="document.getElementById('show').innerHTML = findDistrict(document.getElementsByName('searchInput')[0].value);"><i class="fa fa-search" style = color:white></i></button>
+						<p id = "show"> </p>
+						
+						<script>
+							var district23 = ["lancaster", "quartz hill"];
+							var district25 = ["acton", "agua dulce", "castaic", "desert view highlands", "elizabeth lake", "green valley","hasley canyon", "lake hughes", "lake los angeles", "lancaster", "leona valley", "littlerock","los angeles", "palmdale", "santa clarita", "stevenson ranch", "sun village", "val verde"];
+							var district26 = ["westlake village"];
+							var district27 = ["alhambra", "altadena", "arcadia", "bradbury", "claremont", "pasadena", "san gabriel","glendora", "monrovia", "monterey park", "el monte", "pasadena", "rosemead","san gabriel", "san marino", "san pasqual", "sierra madre", "temple city"];
+							var district28 = ["burbank", "glendale", "la canada flintridge", "la crescenta-montrose", "los angeles","pasadena", "west hollywood"];
+							var district29 = ["los angeles", "san fernando"];
+							var district30 = ["burbank", "hidden hills", "los angele"];
+							var district32 = ["avacado heights", "azusa", "baldwin park", "charter oak", "citrus", "covina", "duarte", "el monte","glendora", "industry", "irwindale", "la puente", "la verne", "mayflower village","monrovia", "san dimas", "san jose hills", "valinda", "vincent", "west covina", "west puente valley"];
+							var district33 = ["agoura hills", "beverly hills", "calabasas", "el segundo", "hermosa beach", "los angeles","malibu", "manhattan beach", "marina del rey", "palos verdes estates","redondo beach", "rolling hills", "santa monica", "topanga", "torrance"];
+							var district34 = ["los angeles"];
+							var district35 = ["pomona"];
+							var district37 = ["culver city", "inglewood", "ladera heights", "os angeles", "windsor hills"];
+							var district38 = ["artesia", "avocado heights", "bellflower", "cerritos", "la mirada", "hawaiian gardens", "lakewood", "montebello", "norwalk" , "pico rivera", "rose hills", "santa Fe Springs","el monte", "whittier", "los nietos", "whittier"];
+							var district39 = ["diamond bar", "hacienda heights", "industry", "la habra heights", "rowland heights","walnut"];
+							var district40 = ["bell", "bell gardens", "bellflower", "commerce", "cudahy", "downey", "los angeles","florence-graham" , "huntington park", "maywood", "paramount","vernon"];
+							var district43 = ["alondra park", "del aire" , "gardena", "hawthorne", "inglewood", "lawndale", "lennox", "lomita","los angeles", "torrance", "athens", "carson", "westmont"];
+							var district44 = ["carson","compton","rancho dominguez", "florence-graham", "long beach", "los angeles", "lynwood", "southgate", "walnut park", "willowbrook"];
+							var district47 = ["avalon","lakewood", "long beach", "signal hill"];
+							
+							var districts = [];
+							
+							function check(district, num, city){
+								for (var i=0; i<district.length;i++){
+									if (district[i] === city){
+										districts.push(num);
+									}
+								}
+							}
+							function findDistrict(city){
+								var str = "";
+								city = city.toLowerCase();
+								check(district23,23,city);
+								check(district25,25,city);
+								check(district26,26,city);
+								check(district27,27,city);
+								check(district28,28,city);
+								check(district29,29,city);
+								check(district30,30,city);
+								check(district32,32,city);
+								check(district33,33,city);
+								check(district34,34,city);
+								check(district35,35,city);
+								check(district37,37,city);
+								check(district38,38,city);
+								check(district39,39,city);
+								check(district40,40,city);
+								check(district43,43,city);
+								check(district44,44,city);
+								check(district47,47,city);
+								for (var i=0; i<districts.length; i++){
+									if (i>0){
+										str += ", ";
+										if (i==districts.length-1){
+											str+= "and ";
+										}
+									}
+									str += districts[i];
+								}
+								if (str!=""){
+									return "District(s) "+str+" match your city!";
+								}else{
+									return "Sorry, no such city could be found in the LA county";
+								}
+							}
+						</script>
+
+					</p>
+				</div>
+			</section>
+			<!-- End Sample Area -->
+			
+
+			<!-- start footer Area -->
+
+			
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						
+					</div>
+
+					<div class="row footer-bottom d-flex justify-content-between">
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</div>
+				</div>
+			</footer>
+			<!-- End footer Area -->		
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/parallax.min.js"></script>			
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/jquery.DonutWidget.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<script src="js/main.js"></script>	
+		</body>
+	</html>

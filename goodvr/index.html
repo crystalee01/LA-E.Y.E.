@@ -1,0 +1,78 @@
+<!--GOOD WORLD VR-->
+<!---->
+<!---->
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://3d.io/releases/3dio-js/1.x.x-beta/3dio.min.js"></script>
+  </head>
+
+  <body>
+
+    <a-scene light="defaultLightsEnabled: false">
+      <a-entity light="type: ambient"></a-entity>
+       <a-entity camera look-controls wasd-controls position="40 50 -280"></a-entity> 
+       
+       <!--THE OBJECTS-->
+      <a-sky img src="lake.jpg"></a-sky>
+      <!--GROUND-->
+      <a-box color="rgb(161, 218, 145)" position = "0 -60 0" height="3" depth = "8000" width="8000"></a-box>
+      <!--BUILDINGS (KEEP Y VALUE THE SAME)-->
+      <a-box src="bu.png" position="2303 255 963.731" height="636" depth = "300" width="412"></a-box>
+      
+      <a-box src="bu.png" position="497.152 255 1863" height="636" depth = "400" width="412"></a-box>
+      
+      <a-box src="bu.png" position="-1884 255 205.53" height="636" depth = "700" width="412"></a-box>
+      
+      <a-box src="bu.png" position="-333.164 107.9 -691.588" height="336" depth = "400" width="412"></a-box>
+      <a-box src="bu.png" position="400.496 255 -1461.073" height="636" depth = "400" width="412"></a-box>
+      
+      <a-box src="bu.png" position="1622.015 255 893.636" height="636" depth = "900" width="412"></a-box>
+      <a-box src="bu.png" position="1040.50 152.9 85.783" height="636" depth = "400" width="412"></a-box>
+      
+      <a-box src="bu.png" position="1460.680 255 -937.926" height="636" depth = "900" width="412"></a-box>
+      <a-box src="bu.png" position="-2715 255 -2089.487" height="636" depth = "400" width="412"></a-box>
+      
+      <a-box src="bu2.png" position="1035.625 255 2172" height="368" depth = "400" width="222"></a-box>
+      
+      <a-box src="bu.png" position="481.9 255 -3553.319" height="636" depth = "900" width="412"></a-box>     
+     
+      <a-box src="bu.png" position="-330.625 255 1021.650" height="1200" depth = "600" width="300"></a-box>
+      
+      <a-box src="bu.png" position="-1990 255 -3553.309" height="1200" depth = "400" width="600"></a-box>
+      
+      <a-box src="bu.png" position="-2038 255 2017" height="1200" depth = "700" width="600"></a-box>
+      
+      <a-box src="bu.png" position="500.1 255 1135" height="650" depth = "400" width="600"></a-box>
+      
+      <a-box src="bu.png" position="498.7 255 406.5" height="700" depth = "400" width="600"></a-box>
+      
+      <a-box src="bu.png" position="-2134.164 255 -963" height="1200" depth = "900" width="600"></a-box>
+      
+      <a-box src="bu.png" position="454.139 255 -2128.073" height="1200" depth = "400" width="600"></a-box>
+      
+      <a-box src="bu.png" position="-1975 555 -2587.795" height="1200" depth = "400" width="600"></a-box>
+      <a-box src="bu.png" position="2264 535 -959" height="1200" depth = "900" width="600"></a-box>
+      
+      <a-box src="bu.png" position="506.454 331.9 -678.252" height="1000" depth = "400" width="600"></a-box>
+      
+      <a-box src="bu.png" position="-1968.625 255 1159.650" height="1200" depth = "400" width="600"></a-box>
+      
+      <a-box src="bu.png" position="1161 181.4 -2785.319" height="500" depth = "900" width="600"></a-box>
+      
+      <!--RIVER-->
+      <a-box color="rgb(145, 219, 213)" position="-1100 -41.7 0" height="30" depth="8000" width="1075"></a-box>
+      
+      <!--CONCRETE-->
+      <a-box color="gray" position = "35 -46 0" height="5" depth = "10000" width="300"></a-box>
+      <a-box color="gray" position = "0 -46 -300" height="5" depth = "300" width="10000"></a-box>
+      <a-box color="gray" position = "70 -46 1500" height="5" depth = "300" width="10000"></a-box>
+      <a-box color="gray" position = "70 -46 2550" height="5" depth = "300" width="10000"></a-box>
+
+      
+    </a-scene>
+
+    <script src="./index.js"></script>
+  </body>
+
+</html>

@@ -2863,3 +2863,10 @@ h6 {
   padding: 0px 20px 0px 20px;
 }
 
+#quote{
+  color: #8490ff;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 30px;
+  line-height: 150%;
+}
